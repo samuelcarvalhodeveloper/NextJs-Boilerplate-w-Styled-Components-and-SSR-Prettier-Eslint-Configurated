@@ -1,3 +1,6 @@
+const { createGlobalStyle } = require("styled-components");
+
+const GlobalStyle = createGlobalStyle`
 * {
   margin: 0rem;
   padding: 0rem;
@@ -19,3 +22,6 @@ body {
 :focus {
   outline: 0.3rem solid #007bff;
 }
+`;
+
+export default GlobalStyle;
