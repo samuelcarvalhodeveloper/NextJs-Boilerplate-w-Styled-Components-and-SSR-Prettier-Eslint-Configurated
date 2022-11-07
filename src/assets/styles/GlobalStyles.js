@@ -22,6 +22,10 @@ body {
 :focus {
   outline: 0.3rem solid #007bff;
 }
+
+:active {
+  outline: none;
+}
 `;
 
 export default GlobalStyle;
